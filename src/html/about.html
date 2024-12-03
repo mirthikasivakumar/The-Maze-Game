@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About The Maze Game</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/x-icon" href="../../utils/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="manifest" href="../../manifest.json">
+    <meta name="theme-color" content="#000000">
+</head>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CZ3YJF00CG"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-CZ3YJF00CG');
+</script>
+
+<style>
+    body, html {
+        scroll-behavior: smooth;
+        overflow-x: auto;
+    }
+</style>
+
+<body>
+    <header style="margin-bottom: 50px">
+        <h1>The Maze Game</h1>
+        <p>A simple yet fun game to play when you're bored.</p>
+    </header>
+
+    <div style="margin-top: -20px" class="game-container">
+        <h2 style="color: white">About The Maze Game</h2>
+        <p style="color: white">You can use the arrow keys or the four control buttons below the maze to help the player navigate through the maze.</p>
+        <p style="color: white">The player's goal is to reach the end of the maze.</p>
+        <p style="color: white">If the player reaches the end of the maze, the maze will regenerate and the player will be placed at the start of the new maze.</p>
+        <p style="color: white">If you find yourself stuck, you can regenerate the maze by clicking the "Regenerate Maze" button.</p>
+        <p style="color: white">Good luck!</p>
+
+        <button id="regenerateMaze" onclick="window.location.href='../../index.html'" style="margin-top: 25px">Back to Game</button>
+    </div>
+</body>
+
+</html>
